@@ -163,7 +163,7 @@ export class SwapTool extends BaseTool<SwapPayload> {
 
       // Handle specific Stellar errors
       if (typeof error === "object" && error !== null) {
-        const stellarError = error as any;
+        const stellarError = error as { response?: { data?: { extras?: { result_codes?: unknown } } } };
         if (stellarError.response?.data?.extras?.result_codes) {
           const codes = stellarError.response.data.extras.result_codes;
           if (codes.operations?.includes("op_no_trust")) {

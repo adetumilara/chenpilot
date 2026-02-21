@@ -5,7 +5,7 @@ import { User } from "../Auth/user.entity";
 
 const isDev = config.env === "development";
 
-const dbOptions: any = {
+const dbOptions: Record<string, unknown> = {
   type: "postgres",
   host: config.db.postgres.host,
   port: config.db.postgres.port,
