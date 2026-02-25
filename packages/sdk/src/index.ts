@@ -1,3 +1,3 @@
 export * from "./types";
 export * from "./recovery";
-export * from "./events";
+export * from "./planVerification";
