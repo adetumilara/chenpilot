@@ -1,0 +1,33 @@
+{
+  "default_branch": "master",
+  "branches": [
+    "feat/automated-db-index-optimization",
+    "feat/backend-platform-reliability",
+    "feature/contract-reserves-slashing-fees-release-pipeline",
+    "feature/sdk-decoder-cache-quality-tooling",
+    "fix/reliability-config-observability",
+    "master",
+    "origin",
+    "release-please--branches--master--components--sdk-core"
+  ],
+  "parent": {
+    "feat/automated-db-index-optimization": "master",
+    "feat/backend-platform-reliability": "master",
+    "feature/contract-reserves-slashing-fees-release-pipeline": "master",
+    "feature/sdk-decoder-cache-quality-tooling": "master",
+    "fix/reliability-config-observability": "master",
+    "master": null,
+    "origin": "master",
+    "release-please--branches--master--components--sdk-core": "master"
+  },
+  "order": [
+    "master",
+    "feat/automated-db-index-optimization",
+    "feat/backend-platform-reliability",
+    "feature/contract-reserves-slashing-fees-release-pipeline",
+    "feature/sdk-decoder-cache-quality-tooling",
+    "fix/reliability-config-observability",
+    "origin",
+    "release-please--branches--master--components--sdk-core"
+  ]
+}
