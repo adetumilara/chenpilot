@@ -1,7 +1,5 @@
 node_modules
 dist
-.env
-.env.local
 src/Auth/accounts.json
 logs/
 coverage/
@@ -12,3 +10,4 @@ issue.md
 COMMIT.md
 contracts/target
 target
+config.bat
