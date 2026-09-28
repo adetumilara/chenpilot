@@ -1,7 +1,4 @@
 node_modules/
-.env
-.env.local
-.env
 redteam-report.json
 src/Auth/accounts.json
 
@@ -9,5 +6,8 @@ src/Auth/accounts.json
 dist/
 coverage/
 logs/
+contracts/target/
+*.tsbuildinfo
 *.log
 .DS_Store
+config.bat
